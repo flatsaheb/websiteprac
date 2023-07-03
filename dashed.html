@@ -1,0 +1,42 @@
+<main class="container">
+    <span class="type-of-border">
+    <code>Dashed Border</code>
+    </span>
+    <div class="dashed-border">
+    <p>A Dashed Border</p>
+    </div>
+    </main>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    padding: 2em;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    height: 100vh;
+    }
+    .container {
+    width: 50%;
+    border: 5px solid #a51164;
+    padding: 2em;
+    position: relative;
+    font-size: 1.2em;
+    }
+    .type-of-border {
+    position: absolute;
+    bottom: -3.2em;
+    left: -0.25em;
+    padding: 1em;
+    background-color: #a51164;
+    color: #ffffff;
+    font-weight: bold;
+    }
+    .dashed-border {
+    border-style: dashed;
+    /* Aesthetics */
+    border-width: 10px;
+    padding: 0.4em;
+    }

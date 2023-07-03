@@ -1,0 +1,51 @@
+.table0 {
+   text-align: left;
+   border: 1px solid black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-style: solid;
+   font-size: 14pt;
+}
+.table1 {
+    text-align:left;
+    border: 1px solid black;
+    background-color: rgb(255, 196, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Alternate rows with differsnt shade */
+.table1, tr:nth-child(odd){
+    background-color: rgba(255, 196, 240, 0.237);
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 196, 240);
+    background-color: aliceblue;
+    width:fit-content
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+tr:hover{background-color: coral;}
+body{
+    background-color: blanchedalmond;
+}
+img {
+    position:absolute;
+    right:1710px;top:9px;
+    background-color: transparent;
+}
+.table1, th{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
